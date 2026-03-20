@@ -19,7 +19,7 @@ def process_reddit_data(nr_of_executors, ex_cores):
 
     # Read slim dataset - use 20% sample
     df = spark.read.parquet("hdfs:///reddit/slim/") \
-            .sample(fraction=0.02, seed=42)
+            .sample(fraction=0.2, seed=42)
 
     print(f"Sample row count: {df.count()}")
     # Step 1: Clean and split into words using Spark SQL functions
