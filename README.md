@@ -1,4 +1,4 @@
-# DEgroup28 — Reddit Bigram Markov Chain
+# DEgroup28 — Reddit Word par Markov Chain
 **Data Engineering I (1TD169) | Uppsala University | Spring 2026**
 
 ## Project Overview
